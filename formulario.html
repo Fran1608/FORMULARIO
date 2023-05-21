@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+<fieldset>
+
+    <legend bgcolor="Purple">Información del cliente</legend>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" required />
+        <label for="usuario"></label>
+        <input class="campo" type="text" placeholder="Usuario" type="email" name="email" id="email" required />
+        <label for="date">date</label>
+        <input type="date" name="date" id="date" required />
+        <label for="contraseña"></label>
+        <input class="campo" type="text" placeholder="password" type="password" name="password" id="password" />
+        <label for="range">Rango de edad</label>
+        <input type="range" name="range" id="range" min="5" max="50" />
+        <label for="files">Archivos</label>
+        <input type="file" name="files" id="files" />
+        <br>
+        <label for="nombre"></label>
+        <input class="campo" type="text" placeholder="Nombre" type="text" id="nombre" />
+        <input type="radio" name="tecnologias" id="html" />
+        <label for="html">HTML</label>
+        <input type="radio" name="tecnologias" id="JS" />
+        <label for="JS">JS</label>
+        <input list="midatalist" />
+        <datalist id="midatalist">
+          <option value="valor1"></option>
+          <option value="valor2"></option>
+          <option value="valor3"></option>
+        </datalist>
+        </datalist>
+
+</fieldset>
+
+<fieldset>
+    <legend>Información adicional</legend>
+    <input type="checkbox" name="dev" id="dev" value="dev" />
+    <label for="dev">Desarrollador</label>
+    <input type="checkbox" name="design" id="design" value="design" />
+    <label for="design">Diseñador</label>
+    <select name="select" id="select" size="3">
+      <option value="valor1">Valor 1</option>
+      <option value="valor2" selected>Valor 2</option>
+      <option value="valor3">Valor 3</option>
+    </select>
+    <textarea class="campo" type="text" placeholder="Info Adicional"
+      name="textarea"
+      id="area"
+      cols="30"
+      rows="10"
+      style="resize: none"
+
+    
+            
+    ></textarea>
+  </fieldset>
+
+<button type="button">Boton</button>
+
+      <input type="submit" value="Enviar" />
+
+
+
+
+    </form>
+    
+</body>
+</html>
